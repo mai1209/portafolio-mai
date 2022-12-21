@@ -1,0 +1,60 @@
+.me{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 800;
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;  
+}
+
+.me-spanish{
+  display: none;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 10px;
+}
+.background,
+.title,
+.boton{
+    background-image: url(/img/Purple\ Arch\ [1920x1080].jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(2rem);
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+button{
+    background: none;
+    border: groove 4px rgb(223, 6, 42);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);;
+    cursor: pointer;
+}
+
+@media (min-width:980px) {
+  .me{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top:50px;
+  }
+}

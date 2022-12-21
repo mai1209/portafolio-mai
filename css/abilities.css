@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .back {
+    padding: 10px;
+    cursor: pointer;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  body{
+    background-image: url(/img/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(230, 230, 230);
+   
+  }
+  .abilities {
+    
+    font-size: 20px;
+    font-weight: 500;
+    
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    gap: 40px;
+  
+  
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    padding: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.363);
+  
+  }
+  
+  li {
+    border: solid 1px rgb(230, 230, 230);
+    height: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(100, 63, 134, 0.596);
+  }
+  
+  @media (min-width:980px) {
+    ul {
+      height: 350px;
+      width: 450px;
+  
+    }
+  
+    .abilities {
+      font-size: 30px;
+      font-weight: 800;
+    }
+  
+    a {
+     
+      font-size: 30px;
+     ;
+    }
+  }
