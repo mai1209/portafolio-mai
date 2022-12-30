@@ -10,14 +10,14 @@ body {
     background-image: url(/img/Vast\ Universe\,\ Michal\ Kváč.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     color: rgb(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
+   
 
 
 }
@@ -68,6 +68,7 @@ textarea {
     background:none;
     border: solid black 2px;
     border: solid rgba(230, 230, 230, 0.747) 2px;
+    color: rgb(230, 230, 230);
 }
 
 .btn { background: none;
