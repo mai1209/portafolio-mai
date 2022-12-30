@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Chivo+Mono:ital,wght@1,300&family=Fira+Sans&family=Inter&family=Island+Moments&family=Noto+Sans:ital@1&family=Playfair+Display:ital,wght@1,400;1,500&family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap');
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
     
   }
 
@@ -12,16 +18,17 @@
     background-attachment: fixed;
     background-position: center;
     color: rgb(230, 230, 230);
+    overscroll-behavior: none;
   }
 
 .me{
-    padding: 20px;
+    padding: 80px 30px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-weight: 800;
     max-width: 600px;
     margin: auto;
-    height: 100vh;  
+      
 }
 
 .me-spanish{
@@ -31,8 +38,8 @@
 .title{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 25px;
+    padding: 20px;
 }
 
 p{
@@ -44,7 +51,7 @@ p{
 .boton{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
     gap: 30px;
 }
 
@@ -61,7 +68,13 @@ button{
 @media (min-width:980px) {
   .me{
     font-size: 20px;
-    font-weight: 500;
-    padding-top:50px;
+    font-weight: 800;
+    padding: 90px 30px;
   }
+
+  .title{
+    font-size: 45px;
+  }
+
+  
 }

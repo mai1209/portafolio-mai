@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+
+}
+
+body {
+    background-image: url(/img/Vast\ Universe\,\ Michal\ Kváč.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overscroll-behavior: none;
+
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+   
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 20px;
+}
+
+.form-submit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+input{
+    padding: 4px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+   
+
+}
+
+textarea{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn{
+    background: none;
+    border: groove 4px rgb(223, 6, 42);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);;
+    cursor: pointer;
+}
+
+
+.back {
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    left: 0;
+    top: 0;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-weight: 500;
+  }
+

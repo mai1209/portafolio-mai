@@ -30,6 +30,8 @@
     background-attachment: fixed;
     background-position: center;
     color: rgb(230, 230, 230);
+    overscroll-behavior: none;
+    
    
   }
   .abilities {
@@ -76,14 +78,5 @@
   
     }
   
-    .abilities {
-      font-size: 30px;
-      font-weight: 800;
-    }
   
-    a {
-     
-      font-size: 30px;
-     ;
-    }
   }
