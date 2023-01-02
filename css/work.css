@@ -9,12 +9,14 @@
   }
 
   body{
-    background-image: url(/img/Purple\ Arch\ [1920x1080].jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-    
+    background:
+    linear-gradient(334deg, rgb(154, 130, 201) 0% 6.00%, rgb(234, 181, 219) 94.00% 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  height: 100%;
+  color: rgb(230, 230, 230);
 
   
   }
@@ -36,10 +38,49 @@
     font-weight: 500;
   }
 
-  .back {
-    padding: 20px;
-    cursor: pointer;
-  
+  .button{
+    margin: 10px;
   }
-
   
+  .btn:link,
+  .btn:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1000px;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+  }
+  
+  .btn:active {
+    transform: translateY(-3px);
+  }
+  
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: all .3s;
+  }
+  
+  .btn:hover::after {
+    background-color: rgb(220, 5, 248);
+    transform: scaleX(1.4) scaleY(1.5);
+    opacity: 0;
+  }
+  
+
+ 
