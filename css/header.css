@@ -10,21 +10,7 @@
     font-family: 'Chivo Mono', monospace;
 }
 
-body {
 
-
-    background:
-        linear-gradient(334deg, rgb(154, 130, 201) 0% 6.00%, rgb(234, 181, 219) 94.00% 100%);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-        background-position: center;
-        height: 100vh;
-
-
-
-
-}
 
 header {
     display: flex;

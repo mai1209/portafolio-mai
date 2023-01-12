@@ -10,7 +10,7 @@
   font-family: 'Chivo Mono', monospace;
 }
 
-.button{
+.button {
   margin: 10px;
 }
 
@@ -65,13 +65,13 @@ a {
 }
 
 body {
-  background:
-    linear-gradient(334deg, rgb(154, 130, 201) 0% 6.00%, rgb(234, 181, 219) 94.00% 100%);
+  background-image: -webkit-linear-gradient(334deg, rgb(154, 130, 201) 0% 6.00%, rgb(234, 181, 219) 94.00% 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
   height: 100vh;
+  min-height: 900px;
   color: rgb(230, 230, 230);
 
 
@@ -128,10 +128,10 @@ li {
   transition: 0.3s ease all;
   z-index: 1;
   height: fit-content;
-  
- }
- 
- li:before {
+
+}
+
+li:before {
   transition: 0.5s all ease;
   position: absolute;
   top: 0;
@@ -140,24 +140,27 @@ li {
   bottom: 0;
   opacity: 0;
   content: '';
-  background-color: rgba(100, 63, 134, 0.596);;
+  background-color: rgba(100, 63, 134, 0.596);
+  ;
   z-index: -1;
- }
- 
- li:hover, li:focus {
+}
+
+li:hover,
+li:focus {
   color: white;
- }
- 
- li:hover:before, li:focus:before {
+}
+
+li:hover:before,
+li:focus:before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
- }
- 
- li:active {
+}
+
+li:active {
   transform: scale(0.9);
- }
+}
 
 @media (min-width:980px) {
   ul {
@@ -166,6 +169,6 @@ li {
 
   }
 
- 
+
 
 }
