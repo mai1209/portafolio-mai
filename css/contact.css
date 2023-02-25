@@ -26,6 +26,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  padding: 20px;
   height: 85vh;
   width: 85vw;
   max-width: 800px;
@@ -79,18 +80,10 @@ textarea {
 
 .btn1 {
   background: none;
-  border: groove 4px rgb(223, 6, 42);
-  padding: 5px;
-  font-size: 15px;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  ;
+  border: none;
+  padding: 20px 5px;
   cursor: pointer;
 }
-
-
-
-
 
 
 
@@ -104,16 +97,3 @@ textarea {
 
 }
 
-.btn {
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 50px;
-  width: fit-content;
-  padding: 9px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-
-}
-
-.btn:hover {
-  color: rgb(236, 19, 56);
-}

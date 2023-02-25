@@ -19,16 +19,6 @@
   
 }
 
-.btn{
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 50px;
-  padding: 9px;
-  color:rgb(255, 255, 255) ;
-}
-
-.btn:hover{
-  color: rgb(236, 19, 56);
-}
 
 
 
@@ -58,6 +48,8 @@ h1{
  margin: 50px;
 
 }
+
+
 
 ul {
  display: flex;
@@ -90,7 +82,10 @@ li {
   color:  rgb(236, 19, 56);;
  }
  
-
+li:hover{
+ -webkit-transform: rotate(360deg);transform: rotate(360deg);
+ cursor: pointer;
+}
 
 @media (min-width:980px) {
   ul {
