@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Chivo Mono', monospace;
+  cursor: url("../img/cursor2.png" ) 10 5 , pointer;
 
 }
 
@@ -13,7 +14,7 @@ body {
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
-  color: rgb(230, 230, 230);
+  color:  #3a0b3a;
 
 
 
@@ -62,28 +63,37 @@ body {
 
 input {
   border-radius: 10px;
-  border: none;
-  padding: 3px;
-  height: 30px;
+  padding: 6px;
+  height: 38px;
   background: none;
-  border: solid rgba(230, 230, 230, 0.747) 2px;
-  color: rgb(230, 230, 230);
+  border: 2px solid  #ffffff;
+  outline: none;
+  color:#1b1b1b;
+  cursor: url("../img/cursor1.png" ) 10 5 , text;
+  
 }
 
 textarea {
+  padding: 6px;
+  outline: none;
   border-radius: 5px;
   background: none;
-  border: solid black 2px;
-  border: solid rgba(230, 230, 230, 0.747) 2px;
-  color: rgb(230, 230, 230);
+  border: solid #ffffff 2px;
+  color:#ffffff;
+  
 }
 
 .btn1 {
   background: none;
   border: none;
   padding: 20px 5px;
-  cursor: pointer;
+  cursor: url("../img/pointer.png" ) 10 5 , pointer;
 }
+  
+.btn{
+  cursor: url("../img/pointer.png" ) 10 5 , pointer;
+}
+
 
 
 

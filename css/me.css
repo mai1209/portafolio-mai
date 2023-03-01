@@ -2,12 +2,13 @@
 
 
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Chivo Mono', monospace;
+  cursor: url("../img/cursor2.png" ) 10 5 , pointer;
+
   
 
 }
@@ -21,7 +22,8 @@ body {
   background-size: cover;
   background-attachment: scroll;
   background-position: center;
-  
+ 
+ 
 
 }
 
@@ -35,7 +37,7 @@ body {
 
 .text1 {
   
-  color: rgb(255, 255, 255);
+  color:#3a0b3a;
   margin: auto;
   max-width: 90vh;
   text-align: center;
@@ -46,7 +48,7 @@ body {
 }
 
 .title {
-  color: rgb(236, 19, 56);
+  color: #3a0b3a;
   text-align: center;
   font-size: 25px;
   padding: 20px;
@@ -61,29 +63,37 @@ body {
   justify-content: center;
   padding: 40px;
   gap: 30px;
-  ;
+  
 }
 
 .btn{
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #3a0b3a;
   border-radius: 50px;
   padding: 9px;
 }
 
 .btn:hover{
-  color: rgb(236, 19, 56);
+  color:#d141d1;
 }
+
+
 
 .foto{
   width: 90px;
   height: 90px;
   border-radius: 90px;
-  border: 2.5px solid rgba(236, 19, 55, 0.582);
-  box-shadow: 10px 5px 20px  rgba(255, 255, 255, 0.842);
+  
+  box-shadow: 0px 0px 20px  #3a0b3a;
 
   animation: mover 3s ;
  
 
+}
+
+.foto-container{
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes mover {
@@ -110,16 +120,6 @@ body {
     
   }
 }
-
-
-
-.foto-container{
-  display: flex;
-  justify-content: center;
-}
-
-
-
 
 @media (min-width:980px) {
   .me {
