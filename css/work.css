@@ -14,10 +14,12 @@
      linear-gradient(334deg, rgb(154, 130, 201) 0% 6.00%, rgb(234, 181, 219) 94.00% 100%);
    background-repeat: no-repeat;
    background-size: cover;
-   background-attachment: scroll;
+   background-attachment:scroll;
+   height: 100vh;
    background-position: center;
    color: #3a0b3a;
-   height: 100vh;
+   
+   
 
 
  }
@@ -25,8 +27,10 @@
  .coming {
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
    align-items: center;
    gap: 30px;
+  
 
 
 
@@ -49,7 +53,8 @@
 
  .cv,
  .movie,
- .blog{
+ .blog,
+ .CV2{
    border: 1px solid #3a0b3a;
    border-radius: 50px;
    box-shadow: 10px 10px 20px #3a0b3a;
@@ -68,7 +73,8 @@
 
  .cv-info,
  .movie-info,
- .blog-info {
+ .blog-info,
+ .CV2-info{
    height: 250px;
    width: 250px;
    display: flex;
@@ -82,7 +88,8 @@
 
  .contenedor2,
  .contenedor4,
- .contenedor5 {
+ .contenedor5,
+ .contenedor6 {
    border: 1px solid #3a0b3a;
    border-radius: 50px;
    box-shadow: 10px 10px 20px #3a0b3a;
@@ -118,9 +125,24 @@
   color: antiquewhite;
 }
 
+.CV2:hover>.contenedor6{
+  opacity: 1;
+  visibility: visible;
+  color: antiquewhite;
+}
+
  .title {
    color: #3a0b3a;
    text-align: center;
    font-size: 25px;
    padding: 100px;
  }
+
+ @media (max-width:980px) {
+  body{
+    height: 100%;
+  }
+
+ 
+
+}
